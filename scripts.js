@@ -95,6 +95,7 @@ function showPopupGif(gifPathsArray) {
 // マーカー検出処理
 document.querySelectorAll('a-marker').forEach(marker => {
     marker.addEventListener('markerFound', () => {
+        console.log(`Marker Found: ${marker.id}`); // マーカーが見つかったときにログを表示
         if (isPlaying) return;
 
         updateMarkerStatus(true, true);
