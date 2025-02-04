@@ -54,8 +54,8 @@
 /* ×ボタン（四角に変更） */
 #closeButton {
     position: absolute;
-    top: 5px;
-    right: 5px;
+    top: 5vw;
+    right: 5vw;
     background: rgba(255, 0, 0, 0.7);
     color: white;
     border: none;
