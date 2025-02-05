@@ -54,12 +54,7 @@
 
 }
 
-/* 映像のサイズを調整 */
-#videoElement {
-    width: 100%;
-    height: 100%;
-    object-fit: contain; /* 映像がはみ出さないように */
-}
+
 
 
 /* ×ボタン（四角に変更） */
