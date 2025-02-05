@@ -48,8 +48,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     display: none;
-    z-index: 1000;
-    width: 50vw;   
+    z-index: 1000;   
     height: 50vh;  
 
 }
