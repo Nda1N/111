@@ -53,7 +53,6 @@
     height: 90vh;  /* 画面高の90% */
     max-width: 600px;  /* 横幅の最大制限 */
     max-height: 90dvh; /* デバイスの実際の高さに合わせる */
-    background-color: white;
     border-radius: 10px;
     overflow: hidden;
 }
