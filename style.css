@@ -1,3 +1,4 @@
+
 /* 赤枠 */
 #markerBoundary {
     position: fixed;
@@ -43,19 +44,23 @@
 
 /* GIFポップアップ */
 #gifPopup {
-     display: none;
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
     z-index: 1000;
+    width: 90vw;   /* 画面幅の90% */
+    height: 90vh;  /* 画面高の90% */
 
-    width: 100%;
-    height: 100%;
-    object-fit: contain; /* 画像のアスペクト比を保持して収める */
 }
 
+/* 映像のサイズを調整 */
+#videoElement {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* 映像がはみ出さないように */
+}
 
 
 /* ×ボタン（四角に変更） */
