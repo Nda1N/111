@@ -49,8 +49,8 @@
     transform: translate(-50%, -50%);
     display: none;
     z-index: 1000;
-    width: 90vw;   /* 画面幅の90% */
-    height: 90vh;  /* 画面高の90% */
+    width: 50vw;   
+    height: 50vh;  
 
 }
 
